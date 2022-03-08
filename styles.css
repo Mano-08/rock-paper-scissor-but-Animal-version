@@ -1,5 +1,12 @@
+.container_2 {
+    position: absolute;
+    left:25%;
+    width:50%;
+    border: 5px solid #FFFF00;
+    padding: 10px;
+    }
+
 .button1 {
-    
     border-radius: 4px;
     background-color: #f4511e;
     border: none;
@@ -37,3 +44,6 @@
     opacity: 1;
     right: 0;
   }
+
+
+ 
