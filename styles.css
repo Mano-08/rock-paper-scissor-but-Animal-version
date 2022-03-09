@@ -22,8 +22,7 @@ body {
 }
 .start-img {
     flex-shrink: 0;
-    min-width: 100%;
-    height: 10%;
+    min-height: 100%;
 }
 
 .frontpage-button {
@@ -35,14 +34,14 @@ body {
 }
 
 .button1 {
-    margin:25px;
+    margin:35px 25px 25px 25px;
     border-radius: 4px;
     background-color: #f4511e;
     border: none;
     color: #FFFFFF;
     text-align: center;
     font-size: 38px;
-    padding:20px;
+    padding:17px;
     width: 50%;
     transition: all 0.5s;
     cursor: pointer;
