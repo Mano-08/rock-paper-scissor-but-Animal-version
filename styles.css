@@ -1,25 +1,68 @@
+body {
+    background-color: #ebbf47;
+}
+
+
 .container_2 {
-    position: absolute;
+    background-color:#381a07 ;
+    margin-top: 20px;
+    position: relative;
     left:25%;
     width:50%;
-    border: 5px solid #FFFF00;
-    padding: 10px;
+    border: 5px solid #000000;
+    margin-bottom: 20px;
     }
 
+.frontpage-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width:100%;
+}
+.start-img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.frontpage-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width:100%;
+}
+
 .button1 {
+    margin:20px 0;
     border-radius: 4px;
     background-color: #f4511e;
     border: none;
     color: #FFFFFF;
     text-align: center;
-    font-size: 28px;
+    font-size: 38px;
     padding:20px;
-    width: 200px;
+    width: 50%;
     transition: all 0.5s;
     cursor: pointer;
-    margin: 5px;
+    
   }
   
+  @media only screen and (max-width: 600px) {
+    .button1 {
+        margin:20px 0;
+        font-size: 28px;
+        padding:10px;
+        
+    }
+    .container_2 {
+        left: 10%;
+        width: 80%;
+    }
+  }
+
+
   .button1 span {
     cursor: pointer;
     display: inline-block;
