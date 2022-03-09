@@ -52,7 +52,7 @@ body {
   @media only screen and (max-width: 600px) {
     .button1 {
         margin:20px 0;
-        font-size: 28px;
+        font-size: 24px;
         padding:10px;
         
     }
@@ -64,13 +64,18 @@ body {
 
 
   .button1 span {
+    text-decoration: none;
+    color: white;
     cursor: pointer;
     display: inline-block;
     position: relative;
     transition: 0.5s;
   }
   
+  
   .button1 span:after {
+    text-decoration: none;
+    color: white;
     content: '\00bb';
     position: absolute;
     opacity: 0;
@@ -80,10 +85,14 @@ body {
   }
   
   .button1:hover span {
+    text-decoration: none;
+    color: white;
     padding-right: 25px;
   }
   
   .button1:hover span:after {
+    text-decoration: none;
+    color: white;
     opacity: 1;
     right: 0;
   }
