@@ -1,5 +1,9 @@
 body {
-    background-color: #ebbf47;
+    background-image: linear-gradient(135deg, #dfdc4f, #d4ad42, #c7570c);
+}
+
+.body2 {
+    background-image: linear-gradient(135deg, #c7570c, #d4ad42,  #dfdc4f);
 }
 
 
@@ -36,7 +40,7 @@ body {
 .button1 {
     margin:45px 25px 25px 25px;
     border-radius: 4px;
-    background-color: #f4511e;
+    background-color: #d14116;
     border: none;
     color: #FFFFFF;
     text-align: center;
@@ -97,4 +101,107 @@ body {
   }
 
 
- 
+ .container_main {
+     margin: auto;
+     margin-top: 0.9%;
+     width: 50%;
+     height: 100vh;
+     background-image: linear-gradient(45deg, rgb(51, 23, 6), rgb(78, 5, 5), rgb(87, 8, 8), rgb(121, 3, 3) );
+     
+     position: relative;
+ }
+
+ .cat-image {
+    top:64%;
+     position: absolute;
+     width:20%;
+     left:12%;
+     transition: all 0.5s;
+    cursor: pointer;
+ }
+ .mouse-image {
+    top:64%;
+    position: absolute;
+    width:20%;
+    left:40%;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.elephant-image {
+    top:64%;
+    position: absolute;
+    width:20%;
+    right: 12%;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.user-choice-display {
+    position: absolute;
+    top:6%;
+    width:30%;
+    left:13.333%;
+    
+    
+}
+.computer-choice-display {
+    top:6%;
+    position: absolute;
+    width:30%;
+    right:13.333%;    
+}
+
+.container_main_bottom {
+    margin:auto;
+    background-color:blue ;
+    width: 100%;
+    height: 55vh;
+}
+
+@media only screen and (max-width: 600px) {
+    .cat-image {
+        top:35%;
+         position: absolute;
+         width:35%;
+         left:10%;
+         transition: all 0.5s;
+        cursor: pointer;
+     }
+     .mouse-image {
+        top:35%;
+        position: absolute;
+        width:35%;
+        left:55%;
+        transition: all 0.5s;
+        cursor: pointer;
+    }
+    .elephant-image {
+        bottom:20%;
+        position: absolute;
+        width:35%;
+        right: 32.5%;
+        transition: all 0.5s;
+        cursor: pointer;
+    }
+    
+    .user-choice-display {
+        position: absolute;
+        top:5%;
+        width:42.5%;
+        left:5%;
+        
+        
+    }
+    .computer-choice-display {
+        top:5%;
+        position: absolute;
+        width:42.5%;
+        left:52.5%;
+    }
+    .container_main_bottom {
+        margin:auto;
+        background-color:blue ;
+        width: 100%;
+        height: 33vh;
+    }
+  }
