@@ -34,7 +34,7 @@ body {
 }
 
 .button1 {
-    margin:35px 25px 25px 25px;
+    margin:45px 25px 25px 25px;
     border-radius: 4px;
     background-color: #f4511e;
     border: none;
@@ -50,7 +50,7 @@ body {
   
   @media only screen and (max-width: 600px) {
     .button1 {
-        margin:20px;
+        margin:30px 20px 20px 20px;
         font-size: 24px;
         padding:10px;
         
