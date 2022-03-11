@@ -1,5 +1,4 @@
-
-
+/******BODY******/
 
 body {
     background-image: linear-gradient(135deg, #c0be3b, #d4ad42, #9e4407);
@@ -12,6 +11,11 @@ body {
     height: 100vh;
 }
 
+/*-----BODY-----*/
+
+
+
+/******LANDING PAGE BOX******/
 
 .container_2 {
     background-color:#381a07 ;
@@ -21,6 +25,12 @@ body {
     width:50%;
     border: 5px solid #000000;
     }
+
+/*-----LANDING PAGE BOX-----*/
+
+
+
+/******LANDING PAGE CAT******/
 
 .frontpage-img {
     display: flex;
@@ -33,6 +43,12 @@ body {
     flex-shrink: 0;
     min-height: 100%;
 }
+
+/*-----LANDING PAGE BOX-----*/
+
+
+/******START BUTTON******/
+
 
 .frontpage-button {
     display: flex;
@@ -56,21 +72,6 @@ body {
     cursor: pointer;
     
   }
-  
-  @media only screen and (max-width: 600px) {
-    .button1 {
-        margin:30px 20px 20px 20px;
-        font-size: 24px;
-        padding:10px;
-        
-    }
-    .container_2 {
-        margin-top: 2.5%;
-        left: 10%;
-        width: 80%;
-    }
-  }
-
 
   .button1 span {
     text-decoration: none;
@@ -105,9 +106,38 @@ body {
     opacity: 1;
     right: 0;
   }
+ 
+  /*-----START BUTTON-----*/
+
+  
+  
+
+  /******RESPONSIVENESS ~ LANDING PAGE******/
 
 
- .container_main {
+  @media only screen and (max-width: 600px) {
+    .button1 {
+        margin:30px 20px 20px 20px;
+        font-size: 24px;
+        padding:10px;
+        
+    }
+    .container_2 {
+        margin-top: 2.5%;
+        left: 10%;
+        width: 80%;
+    }
+  }
+
+  /*-----RESPONSIVENESS ~ LANDING PAGE-----*/
+
+
+  
+
+ /******GAME PAGE MAROON BOX******/
+
+
+.container_main {
     
      margin: auto;
      width: 50%;
@@ -115,6 +145,12 @@ body {
      background-image: linear-gradient(45deg, rgb(51, 23, 6), rgb(78, 5, 5), rgb(87, 8, 8), rgb(121, 3, 3) );
      position: relative;
  }
+
+  /*-----GAME PAGE MAROON BOX-----*/
+
+
+
+/******GAME PAGE IMAGES******/
 
  .cat-image {
     top:68%;
@@ -169,6 +205,14 @@ body {
     height: 55vh;
 }
 
+  /*-----GAME PAGE IMAGES-----*/
+
+
+
+
+  /******RESPONSIVENESS ~ GAME PAGE******/
+
+
 @media only screen and (max-width: 600px) {
     .container_main {
         width: 60%;
@@ -219,6 +263,8 @@ body {
         height: 33vh;
     }
   }
+
+/*-----RESPONSIVENESS ~ GAME PAGE-----*/
 
 
 
