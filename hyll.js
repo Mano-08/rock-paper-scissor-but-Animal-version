@@ -4,6 +4,7 @@ var available_options=["mouse","cat","elephant"];
 var user_random_number = 0;
 
 
+
 function the_game(a) {
     if (a===1) {
         document.querySelector(".user-choice-display").setAttribute("src", "images/img1.png");

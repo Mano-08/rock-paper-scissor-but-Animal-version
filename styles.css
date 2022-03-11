@@ -145,6 +145,7 @@ body {
 }
 
 .user-choice-display {
+    border: 3px solid black;
     position: absolute;
     top:6%;
     width:30%;
@@ -153,6 +154,7 @@ body {
     
 }
 .computer-choice-display {
+    border: 3px solid black;
     top:6%;
     position: absolute;
     width:30%;
