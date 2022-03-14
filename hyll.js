@@ -10,52 +10,52 @@ function the_computer(b) {
     var random_number=Math.floor( Math.random() * 3 ) + 1;
     if (b===1) {
         if (random_number===2) {
-            document.querySelector(".user-choice-display").setAttribute("src", "Results/mice_scared_left.png");
-            document.querySelector(".computer-choice-display").setAttribute("src", "Results/cat_happy.png");
+            document.querySelector(".user-choice-display").setAttribute("src", "results/mice_scared_left.png");
+            document.querySelector(".computer-choice-display").setAttribute("src", "results/cat_happy.png");
         }
 
         if (random_number===3) {
-            document.querySelector(".user-choice-display").setAttribute("src", "Results/happy_mice_left.png");
-            document.querySelector(".computer-choice-display").setAttribute("src", "Results/new_right.png");
+            document.querySelector(".user-choice-display").setAttribute("src", "results/happy_mice_left.png");
+            document.querySelector(".computer-choice-display").setAttribute("src", "results/new_right.png");
         }
 
         if (random_number===1) {
-            document.querySelector(".user-choice-display").setAttribute("src", "Results/happy_mice_left.png");
-            document.querySelector(".computer-choice-display").setAttribute("src", "Results/happy_mice_right.png");
+            document.querySelector(".user-choice-display").setAttribute("src", "results/happy_mice_left.png");
+            document.querySelector(".computer-choice-display").setAttribute("src", "results/happy_mice_right.png");
         }
     }
     
     if (b===2) {
         if (random_number===2) {
-            document.querySelector(".user-choice-display").setAttribute("src", "Results/cat_happy_left.png");
-            document.querySelector(".computer-choice-display").setAttribute("src", "Results/cat_happy.png");
+            document.querySelector(".user-choice-display").setAttribute("src", "results/cat_happy_left.png");
+            document.querySelector(".computer-choice-display").setAttribute("src", "results/cat_happy.png");
         }
 
         if (random_number===3) {
-            document.querySelector(".user-choice-display").setAttribute("src", "Results/cat_left.png");
-            document.querySelector(".computer-choice-display").setAttribute("src", "Results/elephant_right.png");
+            document.querySelector(".user-choice-display").setAttribute("src", "results/cat_left.png");
+            document.querySelector(".computer-choice-display").setAttribute("src", "results/elephant_right.png");
         }
 
         if (random_number===1) {
-            document.querySelector(".user-choice-display").setAttribute("src", "Results/cat_happy_left.png");
-            document.querySelector(".computer-choice-display").setAttribute("src", "Results/mice_scared_right.png");
+            document.querySelector(".user-choice-display").setAttribute("src", "results/cat_happy_left.png");
+            document.querySelector(".computer-choice-display").setAttribute("src", "results/mice_scared_right.png");
         }
     }
     
     if (b===3) {
         if (random_number===2) {
-            document.querySelector(".user-choice-display").setAttribute("src", "Results/elephant_left.png");
-            document.querySelector(".computer-choice-display").setAttribute("src", "Results/cat_right.png");
+            document.querySelector(".user-choice-display").setAttribute("src", "results/elephant_left.png");
+            document.querySelector(".computer-choice-display").setAttribute("src", "results/cat_right.png");
         }
 
         if (random_number===3) {
-            document.querySelector(".user-choice-display").setAttribute("src", "Results/elephant_left.png");
-            document.querySelector(".computer-choice-display").setAttribute("src", "Results/elephant_right.png");
+            document.querySelector(".user-choice-display").setAttribute("src", "results/elephant_left.png");
+            document.querySelector(".computer-choice-display").setAttribute("src", "results/elephant_right.png");
         }
 
         if (random_number===1) {
-            document.querySelector(".user-choice-display").setAttribute("src", "Results/elephant_left.png");
-            document.querySelector(".computer-choice-display").setAttribute("src", "Results/mice_scared_right.png");
+            document.querySelector(".user-choice-display").setAttribute("src", "results/elephant_left.png");
+            document.querySelector(".computer-choice-display").setAttribute("src", "results/mice_scared_right.png");
         }
     }
     
