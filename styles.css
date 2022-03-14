@@ -224,7 +224,28 @@ body {
 
   /*-----GAME PAGE IMAGES-----*/
 
+  .pressed1 {
+    transition: all .7s ease-in-out ;
+    transform: scale(1.2);
+  }
+  .pressed2 {
+    transition: all .7s ease-in-out;
+    transform: scale(1.2);
+    transition-delay: 0.5s;
+  }
 
+  .win_background {
+    background-image:linear-gradient(39deg, rgb(142, 206, 151), rgb(104, 214, 122), rgb(39, 144, 29), rgb(9, 105, 30)) ;
+  }
+
+  .lose_background {
+    background-image:linear-gradient(39deg, rgb(206, 142, 142), rgb(214, 104, 104), rgb(144, 29, 29), rgb(105, 9, 9)) ;
+  }
+
+.draw_background {
+    background-image:linear-gradient(39deg, rgb(202, 206, 142), rgb(214, 203, 104), rgb(133, 144, 29), rgb(105, 99, 9)) ;
+  }
+  
 
 
   /******RESPONSIVENESS ~ GAME PAGE******/
@@ -234,6 +255,17 @@ body {
     .container_main {
         width: 60%;
     }
+
+    .pressed1 {
+        transition: all .7s ease-in-out ;
+        transform: scale(1.07);
+      }
+    .pressed2 {
+        transition: all .7s ease-in-out;
+        transform: scale(1.07);
+        transition-delay: 0.5s;
+      }
+
     .cat-image {
         top:45%;
          position: absolute;
@@ -281,6 +313,9 @@ body {
     }
   }
 
+
+
+  
 /*-----RESPONSIVENESS ~ GAME PAGE-----*/
 
 
@@ -496,3 +531,6 @@ body {
   }
 
   */
+
+ 
+ 
