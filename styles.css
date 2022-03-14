@@ -161,6 +161,12 @@ body {
     cursor: pointer;
     border-radius: 8px;
  }
+
+ .cat-image:hover {
+     opacity: 0.8;
+     border: 3px solid black;
+ }
+
  .mouse-image {
     top:68%;
     position: absolute;
@@ -170,6 +176,12 @@ body {
     cursor: pointer;
     border-radius: 8px;
 }
+
+.mouse-image:hover {
+    opacity: 0.8;
+    border: 3px solid black;
+}
+
 .elephant-image {
     top:68%;
     position: absolute;
@@ -178,6 +190,11 @@ body {
     transition: all 0.5s;
     cursor: pointer;
     border-radius: 8px;
+}
+
+.elephant-image:hover {
+    opacity: 0.8;
+    border: 3px solid black;
 }
 
 .user-choice-display {
