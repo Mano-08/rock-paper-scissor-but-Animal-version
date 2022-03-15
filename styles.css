@@ -239,7 +239,7 @@ body {
   }
 
   .lose_background {
-    background-image:linear-gradient(39deg, rgb(206, 142, 142), rgb(214, 104, 104), rgb(144, 29, 29), rgb(105, 9, 9)) ;
+    background-image:linear-gradient(39deg, rgb(194, 121, 121), rgb(197, 92, 92), rgb(141, 37, 37), rgb(126, 31, 31)) ;
   }
 
 .draw_background {
