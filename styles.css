@@ -73,7 +73,7 @@ body {
     
   }
 
-  .button1 span {
+.button1 span {
     text-decoration: none;
     color: white;
     cursor: pointer;
@@ -83,7 +83,7 @@ body {
   }
   
   
-  .button1 span:after {
+.button1 span:after {
     text-decoration: none;
     color: white;
     content: '\00bb';
@@ -94,28 +94,28 @@ body {
     transition: 0.5s;
   }
   
-  .button1:hover span {
+.button1:hover span {
     text-decoration: none;
     color: white;
     padding-right: 25px;
   }
   
-  .button1:hover span:after {
+.button1:hover span:after {
     text-decoration: none;
     color: white;
     opacity: 1;
     right: 0;
   }
  
-  /*-----START BUTTON-----*/
+/*-----START BUTTON-----*/
 
   
   
 
-  /******RESPONSIVENESS ~ LANDING PAGE******/
+/******RESPONSIVENESS ~ LANDING PAGE******/
 
 
-  @media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
     .button1 {
         margin:30px 20px 20px 20px;
         font-size: 24px;
@@ -129,7 +129,7 @@ body {
     }
   }
 
-  /*-----RESPONSIVENESS ~ LANDING PAGE-----*/
+/*-----RESPONSIVENESS ~ LANDING PAGE-----*/
 
 
   
@@ -146,13 +146,12 @@ body {
      position: relative;
  }
 
-  /*-----GAME PAGE MAROON BOX-----*/
-
+/*-----GAME PAGE MAROON BOX-----*/
 
 
 /******GAME PAGE IMAGES******/
 
- .cat-image {
+.cat-image {
     top:68%;
      position: absolute;
      width:20%;
@@ -162,12 +161,12 @@ body {
     border-radius: 8px;
  }
 
- .cat-image:hover {
+.cat-image:hover {
      opacity: 0.8;
      border: 3px solid black;
  }
 
- .mouse-image {
+.mouse-image {
     top:68%;
     position: absolute;
     width:20%;
@@ -222,23 +221,23 @@ body {
     height: 55vh;
 }
 
-  /*-----GAME PAGE IMAGES-----*/
+/*-----GAME PAGE IMAGES-----*/
 
-  .pressed1 {
+.pressed1 {
     transition: all .7s ease-in-out ;
     transform: scale(1.2);
   }
-  .pressed2 {
+.pressed2 {
     transition: all .7s ease-in-out;
     transform: scale(1.2);
     transition-delay: 0.5s;
   }
 
-  .win_background {
+.win_background {
     background-image:linear-gradient(39deg, rgb(123, 194, 133), rgb(99, 202, 116), rgb(34, 133, 25), rgb(19, 133, 44)) ;
   }
 
-  .lose_background {
+.lose_background {
     background-image:linear-gradient(39deg, rgb(194, 121, 121), rgb(197, 92, 92), rgb(141, 37, 37), rgb(126, 31, 31)) ;
   }
 
@@ -274,7 +273,7 @@ body {
          transition: all 0.5s;
         cursor: pointer;
      }
-     .mouse-image {
+    .mouse-image {
         top:45%;
         position: absolute;
         width:35%;
