@@ -124,8 +124,8 @@ function the_computer(b) {
         }
 
         if (random_number===1) {
-            document.querySelector(".user-choice-display").setAttribute("src", "results/elephant_left.png");
-            document.querySelector(".computer-choice-display").setAttribute("src", "results/mice_scared_right.png");
+            document.querySelector(".user-choice-display").setAttribute("src", "results/new_left.png");
+            document.querySelector(".computer-choice-display").setAttribute("src", "results/happy_mice_right.png");
             colorAnimation_lose()
             buttonAnimation1()
             buttonAnimation2()
