@@ -137,6 +137,7 @@ function the_computer(b) {
 function cat_respond() {
     user_random_number = 2;
     the_computer(user_random_number);
+ 
     
 }
 
@@ -149,17 +150,13 @@ function mouse_respond() {
 function elephant_respond() {
     user_random_number = 3;
     the_computer(user_random_number);
-    
+   
 }
 
 
 
 
-
-
-
-
-
-
-
+document.addEventListener("contextmenu", function (e){
+    e.preventDefault();
+}, false);
 
