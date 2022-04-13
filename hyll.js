@@ -9,7 +9,7 @@ function buttonAnimation1() {
   
     setTimeout(function() {
         document.querySelector(".user-choice-display").classList.remove("pressed1");
-    }, 2000);
+    }, 1000);
     
   
   }
@@ -20,7 +20,7 @@ function buttonAnimation1() {
   
     setTimeout(function() {
         document.querySelector(".computer-choice-display").classList.remove("pressed2");
-    }, 2500);
+    }, 1250);
     
   
   }
@@ -30,7 +30,7 @@ function buttonAnimation1() {
   
     setTimeout(function() {
         document.querySelector(".container_main_bottom").classList.remove("draw_background");
-    }, 3000);
+    }, 1500);
   }
 
   function colorAnimation_lose() {
@@ -38,7 +38,7 @@ function buttonAnimation1() {
   
     setTimeout(function() {
         document.querySelector(".container_main_bottom").classList.remove("lose_background");
-    }, 3000);
+    }, 1500);
 }
 
 function colorAnimation_win() {
@@ -46,7 +46,7 @@ function colorAnimation_win() {
   
     setTimeout(function() {
         document.querySelector(".container_main_bottom").classList.remove("win_background");
-    }, 3000);
+    }, 1500);
 }
 
 function the_computer(b) {
@@ -155,8 +155,8 @@ function elephant_respond() {
 
 
 
-
+/*
 document.addEventListener("contextmenu", function (e){
     e.preventDefault();
 }, false);
-
+*/
