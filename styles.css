@@ -224,13 +224,13 @@ body {
 /*-----GAME PAGE IMAGES-----*/
 
 .pressed1 {
-    transition: all .7s ease-in-out ;
+    transition: all .1s ease-in-out ;
     transform: scale(1.2);
   }
 .pressed2 {
-    transition: all .7s ease-in-out;
+    transition: all .1s ease-in-out;
     transform: scale(1.2);
-    transition-delay: 0.5s;
+    transition-delay: 0.25s;
   }
 
 .win_background {
