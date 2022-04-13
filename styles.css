@@ -256,13 +256,13 @@ body {
     }
 
     .pressed1 {
-        transition: all .7s ease-in-out ;
+        transition: all .1s ease-in-out ;
         transform: scale(1.07);
       }
     .pressed2 {
-        transition: all .7s ease-in-out;
+        transition: all .1s ease-in-out;
         transform: scale(1.07);
-        transition-delay: 0.5s;
+        transition-delay: 0.25s;
       }
 
     .cat-image {
