@@ -245,6 +245,12 @@ body {
     background-image:linear-gradient(39deg, rgb(200, 206, 123), rgb(204, 193, 94), rgb(128, 139, 25), rgb(114, 104, 16)) ;
   }
   
+.win-lose-table {
+    margin: auto;
+    width: 50%;
+    border: 3px solid rgb(3, 4, 3);
+    padding: 10px;
+  }
 
 
   /******RESPONSIVENESS ~ GAME PAGE******/
