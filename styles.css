@@ -246,10 +246,12 @@ body {
   }
   
 .win-lose-table {
-    margin: auto;
-    width: 50%;
-    border: 3px solid rgb(3, 4, 3);
-    padding: 10px;
+    position: fixed;
+    margin: 2%;
+    width: 60%;
+    padding:20px;
+    background-color: #000000;
+    
   }
 
 
