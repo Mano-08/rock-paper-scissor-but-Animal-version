@@ -225,11 +225,11 @@ body {
 
 .pressed1 {
     transition: all .1s ease-in-out ;
-    transform: scale(1.2);
+    transform: scale(1.05);
   }
 .pressed2 {
     transition: all .1s ease-in-out;
-    transform: scale(1.2);
+    transform: scale(1.05);
     transition-delay: 0.25s;
   }
 

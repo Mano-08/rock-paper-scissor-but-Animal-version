@@ -9,7 +9,7 @@ function buttonAnimation1() {
   
     setTimeout(function() {
         document.querySelector(".user-choice-display").classList.remove("pressed1");
-    }, 1000);
+    }, 500);
     
   
   }
@@ -20,7 +20,7 @@ function buttonAnimation1() {
   
     setTimeout(function() {
         document.querySelector(".computer-choice-display").classList.remove("pressed2");
-    }, 1250);
+    }, 750);
     
   
   }
@@ -30,7 +30,7 @@ function buttonAnimation1() {
   
     setTimeout(function() {
         document.querySelector(".container_main_bottom").classList.remove("draw_background");
-    }, 1500);
+    }, 750);
   }
 
   function colorAnimation_lose() {
@@ -38,7 +38,7 @@ function buttonAnimation1() {
   
     setTimeout(function() {
         document.querySelector(".container_main_bottom").classList.remove("lose_background");
-    }, 1500);
+    }, 750);
 }
 
 function colorAnimation_win() {
@@ -46,7 +46,7 @@ function colorAnimation_win() {
   
     setTimeout(function() {
         document.querySelector(".container_main_bottom").classList.remove("win_background");
-    }, 1500);
+    }, 750);
 }
 
 function the_computer(b) {
