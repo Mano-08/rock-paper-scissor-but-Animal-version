@@ -1,7 +1,5 @@
-var matches_won_by_user=0;
-var matches_won_by_computer=0;
-var available_options=["mouse","cat","elephant"];
-var user_random_number = 0;
+var matches_won=0;
+
 
 function buttonAnimation1() {
  
@@ -42,6 +40,7 @@ function buttonAnimation1() {
 }
 
 function colorAnimation_win() {
+    matches_won = matches_won + 1
     document.querySelector(".container_main_bottom").classList.add("win_background");
   
     setTimeout(function() {
