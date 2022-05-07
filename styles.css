@@ -11,6 +11,7 @@ body {
     height: 100vh;
 }
 
+
 /*-----BODY-----*/
 
 
@@ -139,7 +140,7 @@ body {
 
 .container_main {
     
-     margin: auto;
+     left: 20%;
      width: 50%;
      height: 90vh;
      background-image: linear-gradient(45deg, rgb(51, 23, 6), rgb(78, 5, 5), rgb(87, 8, 8), rgb(121, 3, 3) );
@@ -147,6 +148,22 @@ body {
  }
 
 /*-----GAME PAGE MAROON BOX-----*/
+
+
+/******GAME SCORES************/
+
+.score_box {
+    
+    height: 90vh;
+    position: absolute;
+    width: 40%;
+    left: 100%;
+    background-color: black;
+}
+/*-------GAME SCORES---------*/
+
+
+
 
 
 /******GAME PAGE IMAGES******/

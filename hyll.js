@@ -1,5 +1,7 @@
-var matches_won=0;
-
+let matches_won=0;
+let max_won=0;
+let countEl=document.getElementById("count-el");
+let maxEl=document.getElementById("max-el");
 
 function buttonAnimation1() {
  
@@ -32,6 +34,13 @@ function buttonAnimation1() {
   }
 
   function colorAnimation_lose() {
+    
+    if (matches_won>max_won) {
+        max_won=matches_won
+    }
+    matches_won=0
+    countEl.textContent="Score:"+matches_won
+    maxEl.textContent="High score:" + max_won
     document.querySelector(".container_main_bottom").classList.add("lose_background");
   
     setTimeout(function() {
@@ -41,6 +50,7 @@ function buttonAnimation1() {
 
 function colorAnimation_win() {
     matches_won = matches_won + 1
+    countEl.textContent="Score:"+matches_won
     document.querySelector(".container_main_bottom").classList.add("win_background");
   
     setTimeout(function() {
@@ -158,4 +168,32 @@ function elephant_respond() {
 document.addEventListener("contextmenu", function (e){
     e.preventDefault();
 }, false);
-*/
+
+
+
+
+<script>
+   let count=0
+
+   let bount=0
+
+   let countEl=document.getElementById("count-el")
+   let incrementEl=document.getElementById("increment-btn")
+   let saveEl=document.getElementById("save-el")
+   let totalEl=document.getElementById("total-el")
+
+   function increment() {
+     count+=1
+     bount+=1
+     totalEl.textContent=bount
+     countEl.textContent=count
+   }
+
+
+   function save() {
+     saveEl.textContent+= count + " - "
+     count=0
+     countEl.textContent=0
+   }
+  </script>
+  */
