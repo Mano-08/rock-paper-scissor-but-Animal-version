@@ -152,13 +152,20 @@ body {
 
 /******GAME SCORES************/
 
+
 .score_box {
-    
+    width: 40%;
+    left: 100%;   
+    background-size: cover;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2rem;
+    padding: 2%;
+    color: #FFFFFF;
+    border-color: #ebe3e3;
+
     height: 90vh;
     position: absolute;
-    width: 40%;
-    left: 100%;
-    background-color: black;
+   
 }
 /*-------GAME SCORES---------*/
 
@@ -558,3 +565,6 @@ body {
 
  
  
+ 
+
+
