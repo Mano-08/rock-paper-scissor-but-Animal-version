@@ -39,8 +39,8 @@ function buttonAnimation1() {
         max_won=matches_won
     }
     matches_won=0
-    countEl.textContent="Score:"+matches_won
-    maxEl.textContent="High score:" + max_won
+    countEl.textContent="Score: "+matches_won
+    maxEl.textContent="High score: " + max_won
     document.querySelector(".container_main_bottom").classList.add("lose_background");
   
     setTimeout(function() {
@@ -50,7 +50,7 @@ function buttonAnimation1() {
 
 function colorAnimation_win() {
     matches_won = matches_won + 1
-    countEl.textContent="Score:"+matches_won
+    countEl.textContent="Score: "+matches_won
     document.querySelector(".container_main_bottom").classList.add("win_background");
   
     setTimeout(function() {
