@@ -48,6 +48,13 @@ body {
 /*-----LANDING PAGE BOX-----*/
 
 
+.top-box {
+    height:8%;
+}
+
+
+
+
 /******START BUTTON******/
 
 
@@ -142,7 +149,7 @@ body {
     
      left: 20%;
      width: 50%;
-     height: 90vh;
+     height: 92vh;
      background-image: linear-gradient(45deg, rgb(51, 23, 6), rgb(78, 5, 5), rgb(87, 8, 8), rgb(121, 3, 3) );
      position: relative;
  }
@@ -163,7 +170,7 @@ body {
     color: #FFFFFF;
     border-color: #ebe3e3;
     background: url(images/blackboard.jpg);
-    height: 90vh;
+    height: 92vh;
     position: absolute;
    
 }
@@ -240,7 +247,7 @@ body {
 
 .container_main_bottom {
     margin:auto;
-    background-image:linear-gradient(39deg, rgb(74, 204, 171), rgb(54, 209, 170), rgb(22, 187, 174), rgb(13, 181, 125)) ;
+    background-image:linear-gradient(39deg, rgb(89, 214, 183), rgb(57, 221, 180), rgb(26, 208, 193), rgb(12, 203, 139)) ;
     width: 100%;
     height: 55vh;
 }
@@ -269,14 +276,7 @@ body {
     background-image:linear-gradient(39deg, rgb(180, 165, 49), rgb(189, 175, 50), rgb(195, 214, 29), rgb(208, 189, 23)) ;
   }
   
-.win-lose-table {
-    position: fixed;
-    margin: 2%;
-    width: 60%;
-    padding:20px;
-    background-color: #000000;
-    
-  }
+
 
 
   /******RESPONSIVENESS ~ GAME PAGE******/

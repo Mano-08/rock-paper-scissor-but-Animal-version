@@ -26,7 +26,7 @@ function buttonAnimation1() {
   }
 
   function colorAnimation_draw() {
-    resEl.textContent="🏳️Its a draw!";
+    resEl.textContent="🏳️Draw!";
     document.querySelector(".container_main_bottom").classList.add("draw_background");
   
     setTimeout(function() {
@@ -38,7 +38,7 @@ function buttonAnimation1() {
 
   function colorAnimation_lose() {
     
-    resEl.textContent="🚩Oops!You lost";
+    resEl.textContent="🚩Oops!You Lost";
     if (matches_won>max_won) {
         max_won=matches_won
     }
