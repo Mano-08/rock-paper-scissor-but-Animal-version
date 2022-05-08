@@ -7,7 +7,7 @@ body {
 }
 
 .body2 {
-    background-image: linear-gradient(135deg, #9e4407, #a7821f,  #c0be3b);
+    background-image: linear-gradient(135deg, #4f187c, #66157c,  #370a58, #2f064d);
     height: 100vh;
 }
 
@@ -162,7 +162,7 @@ body {
     padding: 2%;
     color: #FFFFFF;
     border-color: #ebe3e3;
-
+    background: url(images/blackboard.jpg);
     height: 90vh;
     position: absolute;
    
@@ -240,7 +240,7 @@ body {
 
 .container_main_bottom {
     margin:auto;
-    background-image:linear-gradient(39deg, rgb(142, 206, 190), rgb(104, 214, 187), rgb(29, 144, 135), rgb(9, 105, 73)) ;
+    background-image:linear-gradient(39deg, rgb(74, 204, 171), rgb(54, 209, 170), rgb(22, 187, 174), rgb(13, 181, 125)) ;
     width: 100%;
     height: 55vh;
 }
@@ -248,25 +248,25 @@ body {
 /*-----GAME PAGE IMAGES-----*/
 
 .pressed1 {
-    transition: all .1s ease-in-out ;
-    transform: scale(1.05);
+    transition: all .6s ease-in-out ;
+    transform: scale(1.09);
   }
 .pressed2 {
-    transition: all .1s ease-in-out;
-    transform: scale(1.05);
-    transition-delay: 0.25s;
+    transition: all .6s ease-in-out;
+    transform: scale(1.09);
+    transition-delay: 0.20s;
   }
 
 .win_background {
-    background-image:linear-gradient(39deg, rgb(123, 194, 133), rgb(99, 202, 116), rgb(34, 133, 25), rgb(19, 133, 44)) ;
+    background-image:linear-gradient(39deg, rgb(104, 207, 117), rgb(69, 190, 90), rgb(28, 143, 17), rgb(3, 160, 37)) ;
   }
 
 .lose_background {
-    background-image:linear-gradient(39deg, rgb(194, 121, 121), rgb(197, 92, 92), rgb(141, 37, 37), rgb(126, 31, 31)) ;
+    background-image:linear-gradient(39deg, rgb(206, 83, 83), rgb(196, 45, 45), rgb(207, 28, 28), rgb(218, 1, 1)) ;
   }
 
 .draw_background {
-    background-image:linear-gradient(39deg, rgb(200, 206, 123), rgb(204, 193, 94), rgb(128, 139, 25), rgb(114, 104, 16)) ;
+    background-image:linear-gradient(39deg, rgb(180, 165, 49), rgb(189, 175, 50), rgb(195, 214, 29), rgb(208, 189, 23)) ;
   }
   
 .win-lose-table {

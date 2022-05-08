@@ -43,26 +43,27 @@
         <img class="computer-choice-display" src="images/computers-move.png">
 
         <div class="score_box"> 
-          <p>
+          <p id="res-el">
+            Start Game!
             
           </p>
           <p id="count-el">
-           Score:
+           Score: 0
           </p>
           <p id="max-el">
-           High score:
+           High score: 0
           </p>
         </div>
 
         <div class="container_main_bottom"></div>
         
-        <form onclick="cat_respond()">
+        <form id="cat_onclick" onclick="cat_respond()">
             <img class="cat-image open-button" src="images/img2.png">
         </form>
-        <form onclick="mouse_respond()">
+        <form id="mouse_onclick" onclick="mouse_respond()">
             <img class="mouse-image open-button" src="images/img1.png">
         </form>
-        <form onclick="elephant_respond()">
+        <form id="elephant_onclick" onclick="elephant_respond()">
             <img class="elephant-image open-button" src="images/img3.png">
         </form>
    </div>
