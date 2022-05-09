@@ -48,9 +48,7 @@ body {
 /*-----LANDING PAGE BOX-----*/
 
 
-.top-box {
-    height:8%;
-}
+
 
 
 
@@ -144,8 +142,8 @@ body {
 
 
 .score_box {
-    width: 40%;
     left: 100%;   
+    width: 40%;
     background-size: cover;
     font-family: 'Roboto Mono', monospace;
     font-size: 2rem;
@@ -285,10 +283,11 @@ body {
 }
 */  
     .score_box {
-        position: fixed;
-        left:0;
+        width: 70%;
+        position: absolute;
+        left:-66.666666%;
         font-size: 1.5rem;
-    }
+    } 
     .button1 {
         margin:30px 20px 20px 20px;
         font-size: 24px;
@@ -579,9 +578,3 @@ body {
   }
 
   */
-
- 
- 
- 
-
-
