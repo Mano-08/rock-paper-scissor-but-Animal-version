@@ -7,9 +7,10 @@ body {
 }
 
 .body2 {
-    background-image: linear-gradient(135deg, #9e4407, #a7821f,  #c0be3b);
+    background-image: linear-gradient(135deg, #4f187c, #66157c,  #370a58, #2f064d);
     height: 100vh;
 }
+
 
 /*-----BODY-----*/
 
@@ -45,6 +46,13 @@ body {
 }
 
 /*-----LANDING PAGE BOX-----*/
+
+
+.top-box {
+    height:8%;
+}
+
+
 
 
 /******START BUTTON******/
@@ -112,24 +120,7 @@ body {
   
   
 
-/******RESPONSIVENESS ~ LANDING PAGE******/
 
-
-@media only screen and (max-width: 600px) {
-    .button1 {
-        margin:30px 20px 20px 20px;
-        font-size: 24px;
-        padding:10px;
-        
-    }
-    .container_2 {
-        margin-top: 2.5%;
-        left: 10%;
-        width: 80%;
-    }
-  }
-
-/*-----RESPONSIVENESS ~ LANDING PAGE-----*/
 
 
   
@@ -139,14 +130,39 @@ body {
 
 .container_main {
     
-     margin: auto;
+     left: 20%;
      width: 50%;
-     height: 90vh;
+     height: 92vh;
      background-image: linear-gradient(45deg, rgb(51, 23, 6), rgb(78, 5, 5), rgb(87, 8, 8), rgb(121, 3, 3) );
      position: relative;
  }
 
 /*-----GAME PAGE MAROON BOX-----*/
+
+
+/******GAME SCORES************/
+
+
+.score_box {
+    width: 40%;
+    left: 100%;   
+    background-size: cover;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2rem;
+    padding: 2%;
+    color: #FFFFFF;
+    border-color: #ebe3e3;
+    background: url(images/blackboard.jpg);
+    height: 92vh;
+    position: absolute;
+   
+}
+
+
+/*-------GAME SCORES---------*/
+
+
+
 
 
 /******GAME PAGE IMAGES******/
@@ -216,7 +232,7 @@ body {
 
 .container_main_bottom {
     margin:auto;
-    background-image:linear-gradient(39deg, rgb(142, 206, 190), rgb(104, 214, 187), rgb(29, 144, 135), rgb(9, 105, 73)) ;
+    background-image:linear-gradient(39deg, rgb(89, 214, 183), rgb(57, 221, 180), rgb(26, 208, 193), rgb(12, 203, 139)) ;
     width: 100%;
     height: 55vh;
 }
@@ -224,43 +240,69 @@ body {
 /*-----GAME PAGE IMAGES-----*/
 
 .pressed1 {
-    transition: all .1s ease-in-out ;
-    transform: scale(1.05);
+    transition: all .6s ease-in-out ;
+    transform: scale(1.09);
   }
 .pressed2 {
-    transition: all .1s ease-in-out;
-    transform: scale(1.05);
-    transition-delay: 0.25s;
+    transition: all .6s ease-in-out;
+    transform: scale(1.09);
+    transition-delay: 0.20s;
   }
 
 .win_background {
-    background-image:linear-gradient(39deg, rgb(123, 194, 133), rgb(99, 202, 116), rgb(34, 133, 25), rgb(19, 133, 44)) ;
+    background-image:linear-gradient(39deg, rgb(104, 207, 117), rgb(69, 190, 90), rgb(28, 143, 17), rgb(3, 160, 37)) ;
   }
 
 .lose_background {
-    background-image:linear-gradient(39deg, rgb(194, 121, 121), rgb(197, 92, 92), rgb(141, 37, 37), rgb(126, 31, 31)) ;
+    background-image:linear-gradient(39deg, rgb(206, 83, 83), rgb(196, 45, 45), rgb(207, 28, 28), rgb(218, 1, 1)) ;
   }
 
 .draw_background {
-    background-image:linear-gradient(39deg, rgb(200, 206, 123), rgb(204, 193, 94), rgb(128, 139, 25), rgb(114, 104, 16)) ;
+    background-image:linear-gradient(39deg, rgb(180, 165, 49), rgb(189, 175, 50), rgb(195, 214, 29), rgb(208, 189, 23)) ;
   }
   
-.win-lose-table {
-    position: fixed;
-    margin: 2%;
-    width: 60%;
-    padding:20px;
-    background-color: #000000;
-    
-  }
+
 
 
   /******RESPONSIVENESS ~ GAME PAGE******/
 
 
 @media only screen and (max-width: 600px) {
+/*
+.score_box {
+    
+    left: 100%;   
+    
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2rem;
+    padding: 2%;
+    color: #FFFFFF;
+    border-color: #ebe3e3;
+    background: url(images/blackboard.jpg);
+    height: 92vh;
+    position: absolute;
+   
+}
+*/  
+    .score_box {
+        position: fixed;
+        left:0;
+        font-size: 1.5rem;
+    }
+    .button1 {
+        margin:30px 20px 20px 20px;
+        font-size: 24px;
+        padding:10px;
+        
+    }
+    .container_2 {
+        margin-top: 2.5%;
+        left: 10%;
+        width: 80%;
+    }
     .container_main {
         width: 60%;
+        left:40%;
     }
 
     .pressed1 {
@@ -290,7 +332,7 @@ body {
         cursor: pointer;
     }
     .elephant-image {
-        top:66%;
+        top:72%;
         position: absolute;
         width:35%;
         right: 32.5%;
@@ -314,7 +356,6 @@ body {
     }
     .container_main_bottom {
         margin:auto;
-        
         width: 100%;
         height: 33vh;
     }
@@ -541,3 +582,6 @@ body {
 
  
  
+ 
+
+

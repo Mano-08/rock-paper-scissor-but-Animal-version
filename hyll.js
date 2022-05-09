@@ -1,15 +1,15 @@
-var matches_won_by_user=0;
-var matches_won_by_computer=0;
-var available_options=["mouse","cat","elephant"];
-var user_random_number = 0;
-
+let matches_won=0;
+let max_won=0;
+let countEl=document.getElementById("count-el");
+let maxEl=document.getElementById("max-el");
+let resEl=document.getElementById("res-el")
 function buttonAnimation1() {
  
     document.querySelector(".user-choice-display").classList.add("pressed1");
   
     setTimeout(function() {
         document.querySelector(".user-choice-display").classList.remove("pressed1");
-    }, 500);
+    }, 1000);
     
   
   }
@@ -20,33 +20,52 @@ function buttonAnimation1() {
   
     setTimeout(function() {
         document.querySelector(".computer-choice-display").classList.remove("pressed2");
-    }, 750);
+    }, 1250);
     
   
   }
 
   function colorAnimation_draw() {
+    resEl.textContent="🏳️Draw!";
     document.querySelector(".container_main_bottom").classList.add("draw_background");
   
     setTimeout(function() {
         document.querySelector(".container_main_bottom").classList.remove("draw_background");
-    }, 750);
+        document.querySelector(".user-choice-display").setAttribute("src", "images/users-move.png");
+        document.querySelector(".computer-choice-display").setAttribute("src", "images/computers-move.png");
+    }, 1250);
   }
 
   function colorAnimation_lose() {
+    
+    resEl.textContent="🚩Oops!You Lost";
+    if (matches_won>max_won) {
+        max_won=matches_won
+    }
+    matches_won=0
+    countEl.textContent="Score: "+matches_won
+    maxEl.textContent="High score: " + max_won
     document.querySelector(".container_main_bottom").classList.add("lose_background");
   
     setTimeout(function() {
+        
         document.querySelector(".container_main_bottom").classList.remove("lose_background");
-    }, 750);
+        document.querySelector(".user-choice-display").setAttribute("src", "images/users-move.png");
+        document.querySelector(".computer-choice-display").setAttribute("src", "images/computers-move.png");
+    }, 1250);
 }
 
 function colorAnimation_win() {
+    resEl.textContent="🟢You won!";
+    matches_won = matches_won + 1
+    countEl.textContent="Score: "+matches_won
     document.querySelector(".container_main_bottom").classList.add("win_background");
   
     setTimeout(function() {
         document.querySelector(".container_main_bottom").classList.remove("win_background");
-    }, 750);
+        document.querySelector(".user-choice-display").setAttribute("src", "images/users-move.png");
+        document.querySelector(".computer-choice-display").setAttribute("src", "images/computers-move.png");
+    }, 1250);
 }
 
 function the_computer(b) {
@@ -134,23 +153,33 @@ function the_computer(b) {
     
 }
 
+function disable_onclick() {
+    document.getElementById('cat_onclick').onclick = null;
+    document.getElementById('mouse_onclick').onclick = null;
+    document.getElementById('elephant_onclick').onclick = null;
+    setTimeout(function() {
+        document.getElementById('cat_onclick').setAttribute("onclick","cat_respond()");
+        document.getElementById('mouse_onclick').setAttribute("onclick","mouse_respond()");
+        document.getElementById('elephant_onclick').setAttribute("onclick","elephant_respond()");
+    }, 1250);
+}
+
 function cat_respond() {
     user_random_number = 2;
     the_computer(user_random_number);
- 
-    
+    disable_onclick()
 }
 
 function mouse_respond() {
     user_random_number = 1;
     the_computer(user_random_number);
-    
+    disable_onclick()
 }
 
 function elephant_respond() {
     user_random_number = 3;
     the_computer(user_random_number);
-   
+    disable_onclick()
 }
 
 
@@ -159,4 +188,32 @@ function elephant_respond() {
 document.addEventListener("contextmenu", function (e){
     e.preventDefault();
 }, false);
-*/
+
+
+
+
+<script>
+   let count=0
+
+   let bount=0
+
+   let countEl=document.getElementById("count-el")
+   let incrementEl=document.getElementById("increment-btn")
+   let saveEl=document.getElementById("save-el")
+   let totalEl=document.getElementById("total-el")
+
+   function increment() {
+     count+=1
+     bount+=1
+     totalEl.textContent=bount
+     countEl.textContent=count
+   }
+
+
+   function save() {
+     saveEl.textContent+= count + " - "
+     count=0
+     countEl.textContent=0
+   }
+  </script>
+  */
