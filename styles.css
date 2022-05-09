@@ -120,24 +120,7 @@ body {
   
   
 
-/******RESPONSIVENESS ~ LANDING PAGE******/
 
-
-@media only screen and (max-width: 600px) {
-    .button1 {
-        margin:30px 20px 20px 20px;
-        font-size: 24px;
-        padding:10px;
-        
-    }
-    .container_2 {
-        margin-top: 2.5%;
-        left: 10%;
-        width: 80%;
-    }
-  }
-
-/*-----RESPONSIVENESS ~ LANDING PAGE-----*/
 
 
   
@@ -174,6 +157,8 @@ body {
     position: absolute;
    
 }
+
+
 /*-------GAME SCORES---------*/
 
 
@@ -283,8 +268,41 @@ body {
 
 
 @media only screen and (max-width: 600px) {
+/*
+.score_box {
+    
+    left: 100%;   
+    
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2rem;
+    padding: 2%;
+    color: #FFFFFF;
+    border-color: #ebe3e3;
+    background: url(images/blackboard.jpg);
+    height: 92vh;
+    position: absolute;
+   
+}
+*/  
+    .score_box {
+        position: fixed;
+        left:0;
+        font-size: 1.5rem;
+    }
+    .button1 {
+        margin:30px 20px 20px 20px;
+        font-size: 24px;
+        padding:10px;
+        
+    }
+    .container_2 {
+        margin-top: 2.5%;
+        left: 10%;
+        width: 80%;
+    }
     .container_main {
         width: 60%;
+        left:40%;
     }
 
     .pressed1 {
@@ -314,7 +332,7 @@ body {
         cursor: pointer;
     }
     .elephant-image {
-        top:66%;
+        top:72%;
         position: absolute;
         width:35%;
         right: 32.5%;
@@ -338,7 +356,6 @@ body {
     }
     .container_main_bottom {
         margin:auto;
-        
         width: 100%;
         height: 33vh;
     }
