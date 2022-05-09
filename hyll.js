@@ -9,7 +9,7 @@ function buttonAnimation1() {
   
     setTimeout(function() {
         document.querySelector(".user-choice-display").classList.remove("pressed1");
-    }, 1000);
+    }, 1200);
     
   
   }
@@ -20,7 +20,7 @@ function buttonAnimation1() {
   
     setTimeout(function() {
         document.querySelector(".computer-choice-display").classList.remove("pressed2");
-    }, 1250);
+    }, 1450);
     
   
   }
@@ -33,7 +33,7 @@ function buttonAnimation1() {
         document.querySelector(".container_main_bottom").classList.remove("draw_background");
         document.querySelector(".user-choice-display").setAttribute("src", "images/users-move.png");
         document.querySelector(".computer-choice-display").setAttribute("src", "images/computers-move.png");
-    }, 1250);
+    }, 1450);
   }
 
   function colorAnimation_lose() {
@@ -52,7 +52,7 @@ function buttonAnimation1() {
         document.querySelector(".container_main_bottom").classList.remove("lose_background");
         document.querySelector(".user-choice-display").setAttribute("src", "images/users-move.png");
         document.querySelector(".computer-choice-display").setAttribute("src", "images/computers-move.png");
-    }, 1250);
+    }, 1450);
 }
 
 function colorAnimation_win() {
@@ -65,7 +65,7 @@ function colorAnimation_win() {
         document.querySelector(".container_main_bottom").classList.remove("win_background");
         document.querySelector(".user-choice-display").setAttribute("src", "images/users-move.png");
         document.querySelector(".computer-choice-display").setAttribute("src", "images/computers-move.png");
-    }, 1250);
+    }, 1450);
 }
 
 function the_computer(b) {
