@@ -2,5 +2,5 @@
 
 <!--<h3>A Game</h3>-->
 
-A fun game to play where you win wiht probability of 1/3! <br>
-It's similar to the most played handgame; Rock-Paper-Scissor
+A game similar to the most played handgame; Rock-Paper-Scissor <br>
+Maybe an animal version of the same👀
