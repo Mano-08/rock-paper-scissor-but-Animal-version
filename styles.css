@@ -271,22 +271,26 @@ body {
 
 
 @media only screen and (max-width: 600px) {
-/*
-.score_box {
-    
-    left: 100%;   
-    
-    font-family: 'Roboto Mono', monospace;
-    font-size: 2rem;
-    padding: 2%;
-    color: #FFFFFF;
-    border-color: #ebe3e3;
-    background: url(images/blackboard.jpg);
-    height: 92vh;
-    position: absolute;
-   
+
+#hand-img {
+    margin-top: 10%;
+    height: 65vh;
+    margin-left:10%;
+
 }
-*/  
+#animal-img {
+    margin-top: 10%;
+    height: 10vh;
+    margin-left:10%;
+
+
+}
+#arrow-img {
+    margin-top: 10%;
+    margin-left:5%;
+    height: 7vh;
+    rotate: 90deg;
+}
 .start-img{
     position: relative;
     left:0%;
@@ -371,7 +375,25 @@ body {
     }
   }
 
+#hand-img {
+    margin-top: 10%;
+    height: 65vh;
+    margin-left:10%;
 
+}
+#animal-img {
+    margin-top: 10%;
+    height: 65vh;
+    margin-left:5%;
+
+
+}
+#arrow-img {
+    margin-top: 10%;
+    margin-left:5%;
+    height: 7vh;
+
+}
 
   
 /*-----RESPONSIVENESS ~ GAME PAGE-----*/
