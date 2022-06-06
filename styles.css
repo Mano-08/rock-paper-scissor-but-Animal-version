@@ -264,22 +264,88 @@ body {
 .draw_background {
     background-image:linear-gradient(39deg, rgb(180, 165, 49), rgb(189, 175, 50), rgb(195, 214, 29), rgb(208, 189, 23)) ;
   }
+
+
   
+ /***************RULES_PAGE*****************/
+
+
+
+
+.the_rules {
+    margin-left: 15vw;
+    margin-top: 10vh;
+    height: 80vh;
+    width: 85vw;
+}
+.rules_paragraph {
+    color: #bdb09b;
+    font-size: 1.8rem;
+}
+  .column1 {
+    width: 33%;
+  }
+  .column2 {
+    width: 10%;
+  }
+  .column3 {
+    width: 33%;
+  }
+
+ /*------------RULES_PAGE------------------*/
+
 
 
 
   /******RESPONSIVENESS ~ GAME PAGE******/
 
+@media only screen and (max-width:950px) and (min-width:850px) and (max-height:1400px) and (min-height:1200px) {
+    .the_rules {
+        margin-left: 15vw;
+        margin-top: 10vh;
+        height: 80vh;
+        width: 85vw;
+    }
+    .rules_paragraph {
+        color: #bdb09b;
+        font-size: 1.8rem;
+    }
+      .column1 {
+        width: 33%;
+      }
+      .column2 {
+        width: 10%;
+      }
+      .column3 {
+        width: 33%;
+      }
+    
+}
 
+@media only screen and (max-width:800px) and (max-height:1050px) {
+    .the_rules {
+        margin-left: 10vw;
+        margin-top: 10vh;
+        height: 80vh;
+        width: 85vw;
+    }
+    .rules_paragraph {
+        color: #bdb09b;
+        font-size: 1.8rem;
+    }
+      .column1 {
+        width: 40%;
+      }
+      .column2 {
+        width: 10%;
+      }
+      .column3 {
+        width: 40%;
+      }
+}
 @media only screen and (max-width: 600px) {
 
-.rules_paragraph {
-    font-size: 90px;
-    color:#8312d4;
-}
-#arrow_svg {
-    display:none;
-}
+    
 .start-img{
     position: relative;
     left:0%;
@@ -374,30 +440,7 @@ body {
 
 
 
-.the_rules {
-    margin-left: 15vw;
-    margin-top: 10vh;
-    height: 80vh;
-    width: 85vw;
-}
-.rules_paragraph {
-    color: #bdb09b;
-    font-size: 1.8rem;
-}
-  .column1 {
-    width: 33%;
-  }
-  .column2 {
-    
-    width: 10%;
-  }
-  .column3 {
-    
-    
-    width: 33%;
-  }
-  
-  
+
 /*-----RESPONSIVENESS ~ GAME PAGE-----*/
 
 
