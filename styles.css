@@ -56,7 +56,6 @@ body {
 
 
 
-
 /******START BUTTON******/
 
 
@@ -121,7 +120,9 @@ body {
 /*-----START BUTTON-----*/
 
   
-  
+  .navbar-me {
+    position: static;
+  }
 
 
 
@@ -272,9 +273,18 @@ body {
 
 @media only screen and (max-width: 600px) {
 
+.rules_paragraph {
+    font-size: 90px;
+    color:#8312d4;
+}
+#arrow_svg {
+    display:none;
+}
 .start-img{
     position: relative;
     left:0%;
+
+
     width:80%;
     height:80% ;
 }
@@ -358,6 +368,35 @@ body {
 
 
 
+
+
+
+
+
+
+.the_rules {
+    margin-left: 9vw;
+    margin-top: 10vh;
+    height: 80vh;
+    width: 91vw;
+}
+.rules_paragraph {
+    color: #bdb09b;
+    font-size: 1.8rem;
+}
+  .column1 {
+    width: 33%;
+  }
+  .column2 {
+    
+    width: 10%;
+  }
+  .column3 {
+    
+    
+    width: 33%;
+  }
+  
   
 /*-----RESPONSIVENESS ~ GAME PAGE-----*/
 
