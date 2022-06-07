@@ -53,7 +53,9 @@ function restart() {
     max_won=0;
     count2El.textContent="Computer's Score: "+matches_lost
     countEl.textContent="Your Score: "+matches_won
-    maxEl.textContent="High score: " + max_won
+    localStorage.setItem("highScore", max_won);
+    highScoreFromLocalStorage = localStorage.getItem("highScore");
+    maxEl.textContent="High score: " + highScoreFromLocalStorage;
 }
 
 
