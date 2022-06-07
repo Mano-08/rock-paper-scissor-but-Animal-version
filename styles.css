@@ -15,6 +15,24 @@ body {
 /*-----BODY-----*/
 
 
+/********BUTTONS*****************/
+
+.play_again {
+    position: absolute;
+    bottom:1.7%;
+    background-color: #000000;
+    color: white;
+    padding: 2% 13% ;
+    margin:0;
+}
+
+.play_again:hover {
+    color: #000000;
+    background-color: white;
+}
+
+/*--------------------------------*/
+
 
 /******LANDING PAGE BOX******/
 

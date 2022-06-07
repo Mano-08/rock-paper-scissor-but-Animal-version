@@ -1,9 +1,10 @@
 let matches_won=0;
+let matches_lost=0;
 let max_won=0;
 let countEl=document.getElementById("count-el");
 let maxEl=document.getElementById("max-el");
 let resEl=document.getElementById("res-el");
-
+let count2El=document.getElementById("count2-el");
 let highScoreFromLocalStorage = localStorage.getItem("highScore")
 
 if (highScoreFromLocalStorage) {
@@ -46,6 +47,16 @@ function buttonAnimation1() {
     }, 1450);
   }
 
+function restart() {
+    matches_won=0;
+    matches_lost=0;
+    max_won=0;
+    count2El.textContent="Computer's Score: "+matches_lost
+    countEl.textContent="Your Score: "+matches_won
+    maxEl.textContent="High score: " + max_won
+}
+
+
   function colorAnimation_lose() {
     
     resEl.textContent="🚩Oops!You Lost";
@@ -55,9 +66,8 @@ function buttonAnimation1() {
         max_won=matches_won
         
     }
-    
-    matches_won=0
-    countEl.textContent="Score: "+matches_won
+    matches_lost = matches_lost + 1
+    count2El.textContent="Computer's Score: "+matches_lost
     maxEl.textContent="High score: " + max_won
     document.querySelector(".container_main_bottom").classList.add("lose_background");
     localStorage.setItem("highScore", max_won);
@@ -72,7 +82,7 @@ function buttonAnimation1() {
 function colorAnimation_win() {
     resEl.textContent="🟢You won!";
     matches_won = matches_won + 1
-    countEl.textContent="Score: "+matches_won
+    countEl.textContent="Your Score: "+matches_won
     document.querySelector(".container_main_bottom").classList.add("win_background");
     
     setTimeout(function() {
