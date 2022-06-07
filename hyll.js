@@ -2,7 +2,17 @@ let matches_won=0;
 let max_won=0;
 let countEl=document.getElementById("count-el");
 let maxEl=document.getElementById("max-el");
-let resEl=document.getElementById("res-el")
+let resEl=document.getElementById("res-el");
+
+let highScoreFromLocalStorage = localStorage.getItem("highScore")
+
+if (highScoreFromLocalStorage) {
+    
+    max_won = highScoreFromLocalStorage
+    maxEl.textContent="High score: " + max_won
+}
+
+
 function buttonAnimation1() {
  
     document.querySelector(".user-choice-display").classList.add("pressed1");
@@ -39,14 +49,18 @@ function buttonAnimation1() {
   function colorAnimation_lose() {
     
     resEl.textContent="🚩Oops!You Lost";
+    
+    
     if (matches_won>max_won) {
         max_won=matches_won
+        
     }
+    
     matches_won=0
     countEl.textContent="Score: "+matches_won
     maxEl.textContent="High score: " + max_won
     document.querySelector(".container_main_bottom").classList.add("lose_background");
-  
+    localStorage.setItem("highScore", max_won);
     setTimeout(function() {
         
         document.querySelector(".container_main_bottom").classList.remove("lose_background");
@@ -60,7 +74,7 @@ function colorAnimation_win() {
     matches_won = matches_won + 1
     countEl.textContent="Score: "+matches_won
     document.querySelector(".container_main_bottom").classList.add("win_background");
-  
+    
     setTimeout(function() {
         document.querySelector(".container_main_bottom").classList.remove("win_background");
         document.querySelector(".user-choice-display").setAttribute("src", "images/users-move.png");
