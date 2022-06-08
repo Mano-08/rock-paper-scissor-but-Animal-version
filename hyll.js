@@ -37,7 +37,7 @@ function buttonAnimation1() {
   }
 
   function colorAnimation_draw() {
-    resEl.textContent="🏳️Draw!";
+    resEl.textContent="🏳️It's a Draw!";
     document.querySelector(".container_main_bottom").classList.add("draw_background");
   
     setTimeout(function() {
