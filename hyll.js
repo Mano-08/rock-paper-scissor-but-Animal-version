@@ -51,6 +51,7 @@ function restart() {
     matches_won=0;
     matches_lost=0;
     max_won=0;
+    resEl.innerHTML=`<span style="color:rgb(255, 196, 0)">S</span><span style="color:rgb(255, 0, 170)">t</span><span style="color:rgb(0, 185, 80)">a</span><span style="color:rgb(255, 145, 0)">r</span><span style="color:rgb(195, 11, 97)">t </span><span style="color:rgb(255, 0, 242)">G</span><span style="color:rgb(0, 255, 47)">a</span><span style="color:rgb(0, 255, 255)">m</span><span style="color:rgb(218, 229, 15)">e</span><span style="color:rgb(255, 0, 0)">!</span>`;
     count2El.textContent="Computer's Score: "+matches_lost
     countEl.textContent="Your Score: "+matches_won
     localStorage.setItem("highScore", max_won);
