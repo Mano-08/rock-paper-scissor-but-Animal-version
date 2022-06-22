@@ -102,9 +102,9 @@ function the_computer(b) {
             
             document.querySelector(".user-choice-display").setAttribute("src", "results/mice_scared_left.png");
             document.querySelector(".computer-choice-display").setAttribute("src", "results/cat_happy.png");
-            colorAnimation_lose()
-            buttonAnimation1()
-            buttonAnimation2()
+            colorAnimation_lose();
+            buttonAnimation1();
+            buttonAnimation2();
             
             
         }
@@ -112,17 +112,17 @@ function the_computer(b) {
         if (random_number===3) {
             document.querySelector(".user-choice-display").setAttribute("src", "results/happy_mice_left.png");
             document.querySelector(".computer-choice-display").setAttribute("src", "results/new_right.png");
-            colorAnimation_win()
-            buttonAnimation1()
-            buttonAnimation2()
+            colorAnimation_win();
+            buttonAnimation1();
+            buttonAnimation2();
         }
 
         if (random_number===1) {
             document.querySelector(".user-choice-display").setAttribute("src", "results/happy_mice_left.png");
             document.querySelector(".computer-choice-display").setAttribute("src", "results/happy_mice_right.png");
-            colorAnimation_draw()
-            buttonAnimation1()
-            buttonAnimation2()
+            colorAnimation_draw();
+            buttonAnimation1();
+            buttonAnimation2();
         }
     }
     
@@ -130,25 +130,25 @@ function the_computer(b) {
         if (random_number===2) {
             document.querySelector(".user-choice-display").setAttribute("src", "results/cat_happy_left.png");
             document.querySelector(".computer-choice-display").setAttribute("src", "results/cat_happy.png");
-            colorAnimation_draw()
-            buttonAnimation1()
-            buttonAnimation2()
+            colorAnimation_draw();
+            buttonAnimation1();
+            buttonAnimation2();
         }
 
         if (random_number===3) {
             document.querySelector(".user-choice-display").setAttribute("src", "results/cat_left.png");
             document.querySelector(".computer-choice-display").setAttribute("src", "results/elephant_right.png");
-            colorAnimation_lose()
-            buttonAnimation1()
-            buttonAnimation2()
+            colorAnimation_lose();
+            buttonAnimation1();
+            buttonAnimation2();
         }
 
         if (random_number===1) {
             document.querySelector(".user-choice-display").setAttribute("src", "results/cat_happy_left.png");
             document.querySelector(".computer-choice-display").setAttribute("src", "results/mice_scared_right.png");
-            colorAnimation_win()
-            buttonAnimation1()
-            buttonAnimation2()
+            colorAnimation_win();
+            buttonAnimation1();
+            buttonAnimation2();
         }
     }
     
@@ -156,25 +156,25 @@ function the_computer(b) {
         if (random_number===2) {
             document.querySelector(".user-choice-display").setAttribute("src", "results/elephant_left.png");
             document.querySelector(".computer-choice-display").setAttribute("src", "results/cat_right.png");
-            colorAnimation_win()
-            buttonAnimation1()
-            buttonAnimation2()
+            colorAnimation_win();
+            buttonAnimation1();
+            buttonAnimation2();
         }
 
         if (random_number===3) {
             document.querySelector(".user-choice-display").setAttribute("src", "results/elephant_left.png");
             document.querySelector(".computer-choice-display").setAttribute("src", "results/elephant_right.png");
-            colorAnimation_draw()
-            buttonAnimation1()
-            buttonAnimation2()
+            colorAnimation_draw();
+            buttonAnimation1();
+            buttonAnimation2();
         }
 
         if (random_number===1) {
             document.querySelector(".user-choice-display").setAttribute("src", "results/new_left.png");
             document.querySelector(".computer-choice-display").setAttribute("src", "results/happy_mice_right.png");
-            colorAnimation_lose()
-            buttonAnimation1()
-            buttonAnimation2()
+            colorAnimation_lose();
+            buttonAnimation1();
+            buttonAnimation2();
         }
     }
     
@@ -194,18 +194,18 @@ function disable_onclick() {
 function cat_respond() {
     user_random_number = 2;
     the_computer(user_random_number);
-    disable_onclick()
+    disable_onclick();
 }
 
 function mouse_respond() {
     user_random_number = 1;
     the_computer(user_random_number);
-    disable_onclick()
+    disable_onclick();
 }
 
 function elephant_respond() {
     user_random_number = 3;
     the_computer(user_random_number);
-    disable_onclick()
+    disable_onclick();
 }
 
